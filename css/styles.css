@@ -31,22 +31,16 @@ body .app-container .mid {
   grid-column: 1/4;
   margin: auto;
 }
-body .app-container .mid img {
+body .app-container .mid svg {
   width: 100px;
   height: auto;
   fill: #FF9300;
 }
-body .app-container .topright img {
+body .app-container .topright a {
   float: right;
 }
-body .app-container .bottomright img {
+body .app-container .bottomright a {
   float: right;
-}
-
-img {
-  width: 20px;
-  height: auto;
-  margin: 15px;
 }
 
 svg {

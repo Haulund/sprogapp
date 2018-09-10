@@ -13,7 +13,7 @@ body {
                 .mid {
                         grid-column: 1/4;
                         margin: auto;
-                        img {
+                        svg {
                                 width: 100px;
                                 height: auto;
                                 fill: $orange;
@@ -21,24 +21,20 @@ body {
                 }
 
                 .topright {
-                        img{
+                        a {
                                 float: right;
                         }
                 }
 
                 .bottomright {
-                        img{
+                        a {
                                 float: right;
                         }
                 }
         }
 }
 
-img {
-        width: 20px;
-        height: auto;
-        margin: 15px;
-}
+
 
 svg {
         width: 20px;
