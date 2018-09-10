@@ -6,8 +6,10 @@
                 <title></title>
         </head>
         <body>
-          <p>hejsa</p>
-          <p>Steffen Laver test 2</p>
+          <div class="app-container">
+                  <p>test</p>
+
+          </div>
 
         </body>
 </html>

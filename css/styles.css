@@ -6,6 +6,13 @@
 }
 
 p {
-  color: red;
+  font-size: 16px;
+}
+
+body {
   background-color: #D3D8EA;
+}
+body div {
+  width: 414px;
+  background-color: white;
 }
