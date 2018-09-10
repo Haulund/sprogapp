@@ -1,0 +1,49 @@
+
+.lbmid{
+  grid-column: 1/4;
+  margin: auto;
+
+  img{
+    width: 300px;
+    height: auto;
+    margin: auto;
+  }
+  svg {
+          width: 20px;
+          height: auto;
+          float: right;
+          margin: 15px;
+          fill: $orange;
+  }
+
+}
+
+.bottommid{
+    position: relative;
+  svg {
+      position: absolute;
+      bottom: 0px;
+    }
+  }
+
+.soundmid{
+  grid-column: 1/4;
+  margin: auto;
+
+  img{
+    width: 300px;
+    height: auto;
+    margin: auto;
+  }
+  svg {
+          width: 20px;
+          height: auto;
+          fill: $orange;
+          align-items: center;
+  }
+  p{
+    text-align: center;
+  }
+
+
+}

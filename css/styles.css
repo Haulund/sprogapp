@@ -65,3 +65,49 @@ svg {
   margin: 15px;
   fill: #808080;
 }
+
+.lbmid {
+  grid-column: 1/4;
+  margin: auto;
+}
+.lbmid img {
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+.lbmid svg {
+  width: 20px;
+  height: auto;
+  float: right;
+  margin: 15px;
+  fill: #FF9300;
+}
+
+.bottommid {
+  position: relative;
+}
+.bottommid svg {
+  position: absolute;
+  bottom: 0px;
+}
+
+.soundmid {
+  grid-column: 1/4;
+  margin: auto;
+}
+.soundmid img {
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+.soundmid svg {
+  width: 20px;
+  height: auto;
+  fill: #FF9300;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.soundmid p {
+  text-align: center;
+}
