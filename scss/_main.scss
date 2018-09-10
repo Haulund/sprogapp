@@ -1,9 +1,41 @@
 body {
         background-color: $blue;
 
-                div{
-                width: 414px;
+        .app-container{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                max-width: 414px;
                 background-color: white;
+                margin: 22px;
+                border-radius: 20px;
+                height: 100vh;
 
+                .mid {
+                        grid-column: 1/4;
+                        margin: auto;
+                        img {
+                                width: 100px;
+                                height: auto;
+                                color: $orange;
+                        }
+                }
+
+                .topright {
+                        img{
+                                float: right;
+                        }
+                }
+
+                .bottomright {
+                        img{
+                                float: right;
+                        }
+                }
         }
+}
+
+img {
+        width: 20px;
+        height: auto;
+        margin: 15px;
 }

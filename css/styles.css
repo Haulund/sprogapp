@@ -6,13 +6,45 @@
 }
 
 p {
-  font-size: 16px;
+  font-size: 21px;
+  font-family: 'Catamaran';
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
   background-color: #D3D8EA;
 }
-body div {
-  width: 414px;
+body .app-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  max-width: 414px;
   background-color: white;
+  margin: 22px;
+  border-radius: 20px;
+  height: 100vh;
+}
+body .app-container .mid {
+  grid-column: 1/4;
+  margin: auto;
+}
+body .app-container .mid img {
+  width: 100px;
+  height: auto;
+  color: #FF9300;
+}
+body .app-container .topright img {
+  float: right;
+}
+body .app-container .bottomright img {
+  float: right;
+}
+
+img {
+  width: 20px;
+  height: auto;
+  margin: 15px;
 }
