@@ -9,6 +9,7 @@ p {
   font-size: 21px;
   font-family: 'Catamaran';
   font-weight: bold;
+  color: #2C334E;
 }
 
 a {
@@ -26,6 +27,8 @@ body .app-container {
   margin: 6%;
   border-radius: 20px;
   height: 94vh;
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
 }
 body .app-container .mid {
   grid-column: 1/4;
@@ -39,12 +42,25 @@ body .app-container .mid svg {
 body .app-container .topright a {
   float: right;
 }
-body .app-container .bottomright a {
-  float: right;
+body .app-container .bottomright {
+  position: relative;
+}
+body .app-container .bottomright a svg {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+body .app-container .bottomleft {
+  position: relative;
+}
+body .app-container .bottomleft a svg {
+  position: absolute;
+  bottom: 0px;
 }
 
 svg {
   width: 20px;
   height: auto;
   margin: 15px;
+  fill: #808080;
 }

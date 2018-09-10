@@ -9,6 +9,7 @@ body {
                 margin: 6%;
                 border-radius: 20px;
                 height: 94vh;
+                box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4 );
 
                 .mid {
                         grid-column: 1/4;
@@ -27,9 +28,32 @@ body {
                 }
 
                 .bottomright {
+                                position: relative;
                         a {
-                                float: right;
+
+
+                                svg {
+                                        position: absolute;
+                                        bottom: 0px;
+                                        right: 0px;
+
+                                }
                         }
+                }
+
+                .bottomleft{
+                                position: relative;
+                        a {
+
+
+                          svg {
+                                  position: absolute;
+                                  bottom: 0px;
+
+
+                                }
+                        }
+
                 }
         }
 }
@@ -40,4 +64,5 @@ svg {
         width: 20px;
         height: auto;
         margin: 15px;
+        fill: $iconGray;
 }
