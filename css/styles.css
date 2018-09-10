@@ -65,3 +65,99 @@ svg {
   margin: 15px;
   fill: #808080;
 }
+
+#cambody {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#camera, #camera--view, #camera--sensor, #camera--output {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#camera--view, #camera--sensor, #camera--output {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  -webkit-filter: FlipH;
+          filter: FlipH;
+}
+
+.triggercontainer {
+  width: 100%;
+  height: 120px;
+  background-color: black;
+  position: fixed;
+  opacity: 0.3;
+  bottom: 0px;
+  z-index: 1;
+}
+.triggercontainer #camera--trigger {
+  background-color: black;
+  fill: white;
+  border-radius: 100px;
+  border: 3px solid white;
+  padding: 15px 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 5%;
+  left: calc(50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 2;
+}
+.triggercontainer svg {
+  width: 30px;
+  height: auto;
+  margin: 0px;
+  z-index: 10;
+  fill: white;
+}
+.triggercontainer .botleft {
+  position: fixed;
+  font-size: 40px;
+  font-weight: bold;
+  color: #808080;
+  bottom: 0px;
+  z-index: 20;
+  margin: 5px 10px;
+}
+.triggercontainer .botright {
+  position: fixed;
+  color: #808080;
+  bottom: 0px;
+  right: 0px;
+  z-index: 20;
+  margin: 10px 10px;
+}
+
+.taken {
+  height: 100px !important;
+  width: 100px !important;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  border: solid 3px white;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+}
+
+.topbar {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  opacity: 0.3;
+  top: 0px;
+  z-index: 1;
+}
+.topbar .right {
+  float: right;
+}
