@@ -6,9 +6,9 @@ body {
                 grid-template-columns: auto auto auto;
                 max-width: 414px;
                 background-color: white;
-                margin: 22px;
+                margin: 6%;
                 border-radius: 20px;
-                height: 100vh;
+                height: 94vh;
 
                 .mid {
                         grid-column: 1/4;
@@ -16,7 +16,7 @@ body {
                         img {
                                 width: 100px;
                                 height: auto;
-                                color: $orange;
+                                fill: $orange;
                         }
                 }
 
@@ -35,6 +35,12 @@ body {
 }
 
 img {
+        width: 20px;
+        height: auto;
+        margin: 15px;
+}
+
+svg {
         width: 20px;
         height: auto;
         margin: 15px;

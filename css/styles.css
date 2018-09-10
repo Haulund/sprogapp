@@ -23,9 +23,9 @@ body .app-container {
   grid-template-columns: auto auto auto;
   max-width: 414px;
   background-color: white;
-  margin: 22px;
+  margin: 6%;
   border-radius: 20px;
-  height: 100vh;
+  height: 94vh;
 }
 body .app-container .mid {
   grid-column: 1/4;
@@ -34,7 +34,7 @@ body .app-container .mid {
 body .app-container .mid img {
   width: 100px;
   height: auto;
-  color: #FF9300;
+  fill: #FF9300;
 }
 body .app-container .topright img {
   float: right;
@@ -44,6 +44,12 @@ body .app-container .bottomright img {
 }
 
 img {
+  width: 20px;
+  height: auto;
+  margin: 15px;
+}
+
+svg {
   width: 20px;
   height: auto;
   margin: 15px;
