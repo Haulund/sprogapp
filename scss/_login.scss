@@ -1,0 +1,104 @@
+.loginwrapper {
+
+        height: 100vh;
+        padding-top: 15%;
+
+        .logo {
+                margin: auto;
+                width: 70px;
+                height: 70px;
+
+                svg{
+                        fill: $iconBlue;
+                        width: 70px;
+                        height: auto;
+                        margin: 0px;
+
+                }
+        }
+
+        h1 {
+                text-align: center;
+                margin: 20% 0px 5%;
+        }
+
+        .formwrapper{
+                margin: auto;
+                width: 285px;
+        }
+
+
+        .brugernavn, .password{
+                position: relative;
+                margin-bottom: 15px;
+
+                svg {
+                        position: absolute;
+                        transform: translateY(-50%);
+                        top: 50%;
+                        left: 5px;
+                        fill: $orange;
+                        width: 20px;
+                        height: auto;
+                        margin: inherit;
+                        margin-left: 25px;
+                }
+
+                input {
+                        height: 55px;
+                        width: 285px;
+                        border-radius: 50px;
+                        padding-left: 60px;
+                        border-style: none;
+                        margin-bottom: 20px;
+
+                }
+        }
+
+        .password {
+                svg {
+                        position: absolute;
+                        top: 7px;
+                }
+        }
+
+        .pilicon {
+                background-color: white;
+                width: 56px;
+                height: 56px;
+                border-radius: 50px;
+                margin: 5% auto 0px;
+
+                svg {
+                        width: 35px;
+                        height: auto;
+                        fill: $iconBlue;
+                        margin: 14px 10px;
+                }
+        }
+
+        .opretbruger {
+                position: relative;
+                left: 50%;
+                transform: translate(-50%, 200%);
+                width: 130px;
+
+                svg{
+                        fill: white;
+                        position: absolute;
+                        // transform: translate(-50%,-50%);
+                        width: 30px;
+                        height: auto;
+                        margin: 0px;
+                }
+
+                a {
+                        color: white;
+                        padding-left: 40px;
+                }
+        }
+
+
+
+
+}

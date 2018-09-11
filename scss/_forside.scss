@@ -1,0 +1,16 @@
+.score {
+        position: static;
+        width: 183px;
+        height: 170px;
+        margin: auto;
+        box-shadow: 4px 0px 9px;
+
+        p {
+                font-size: 144px;
+                font-weight: 400;
+
+                &:nth-child(2) {
+                        font-size: 26px;
+                }
+        }
+}

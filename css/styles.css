@@ -17,6 +17,19 @@ a {
   font-family: 'Catamaran';
 }
 
+h1 {
+  font-family: 'Catamaran';
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+input {
+  font-family: 'Catamaran';
+  font-size: 21px;
+  color: #808080;
+}
+
 body {
   background-color: #ACACAC;
 }
@@ -346,4 +359,103 @@ svg {
 }
 .triggercontaineroverlay .botright svg {
   fill: #808080;
+}
+
+.loginwrapper {
+  height: 100vh;
+  padding-top: 15%;
+}
+.loginwrapper .logo {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+}
+.loginwrapper .logo svg {
+  fill: #2C334E;
+  width: 70px;
+  height: auto;
+  margin: 0px;
+}
+.loginwrapper h1 {
+  text-align: center;
+  margin: 20% 0px 5%;
+}
+.loginwrapper .formwrapper {
+  margin: auto;
+  width: 285px;
+}
+.loginwrapper .brugernavn, .loginwrapper .password {
+  position: relative;
+  margin-bottom: 15px;
+}
+.loginwrapper .brugernavn svg, .loginwrapper .password svg {
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: 50%;
+  left: 5px;
+  fill: #FF9300;
+  width: 20px;
+  height: auto;
+  margin: inherit;
+  margin-left: 25px;
+}
+.loginwrapper .brugernavn input, .loginwrapper .password input {
+  height: 55px;
+  width: 285px;
+  border-radius: 50px;
+  padding-left: 60px;
+  border-style: none;
+  margin-bottom: 20px;
+}
+.loginwrapper .password svg {
+  position: absolute;
+  top: 7px;
+}
+.loginwrapper .pilicon {
+  background-color: white;
+  width: 56px;
+  height: 56px;
+  border-radius: 50px;
+  margin: 5% auto 0px;
+}
+.loginwrapper .pilicon svg {
+  width: 35px;
+  height: auto;
+  fill: #2C334E;
+  margin: 14px 10px;
+}
+.loginwrapper .opretbruger {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 200%);
+          transform: translate(-50%, 200%);
+  width: 130px;
+}
+.loginwrapper .opretbruger svg {
+  fill: white;
+  position: absolute;
+  width: 30px;
+  height: auto;
+  margin: 0px;
+}
+.loginwrapper .opretbruger a {
+  color: white;
+  padding-left: 40px;
+}
+
+.score {
+  position: static;
+  width: 183px;
+  height: 170px;
+  margin: auto;
+  -webkit-box-shadow: 4px 0px 9px;
+          box-shadow: 4px 0px 9px;
+}
+.score p {
+  font-size: 144px;
+  font-weight: 400;
+}
+.score p:nth-child(2) {
+  font-size: 26px;
 }

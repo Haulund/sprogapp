@@ -5,6 +5,7 @@
   width: 100%;
 }
 
+
 #camera {
         margin: 6%;
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4 );
@@ -34,18 +35,6 @@
         border-bottom-right-radius: 20px;
         display: grid;
         grid-template-columns: 50px auto 50px;
-
-
-        #camera--trigger{
-            // background-color: black;
-            // border-radius: 100px;
-            // border: 3px solid white;
-            // padding: 15px 20px;
-            // text-align: center;
-            // left: calc(50%);
-            // transform: translateX(-50%);
-
-            }
 
             svg {
                     width: 30px;
