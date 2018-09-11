@@ -142,9 +142,8 @@ svg {
 .triggercontainer {
   width: 100%;
   height: 120px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.3);
   position: fixed;
-  opacity: 0.3;
   bottom: 0px;
   z-index: 1;
 }
@@ -180,11 +179,13 @@ svg {
 }
 .triggercontainer .botright {
   position: fixed;
-  color: #808080;
   bottom: 0px;
   right: 0px;
   z-index: 20;
   margin: 10px 10px;
+}
+.triggercontainer .botright svg {
+  fill: #808080;
 }
 
 .taken {
@@ -203,9 +204,8 @@ svg {
 .topbar {
   width: 100%;
   height: 50px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
-  opacity: 0.3;
   top: 0px;
   z-index: 1;
 }
