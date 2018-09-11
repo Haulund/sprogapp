@@ -89,7 +89,8 @@ svg {
   height: auto;
   margin: auto;
   display: block;
-  padding-bottom: 27%;
+  padding-bottom: 30%;
+  margin-top: -30%;
 }
 .lbmid svg {
   width: 20px;
@@ -106,8 +107,36 @@ svg {
   display: inline-block;
   width: 100%;
   height: 100%;
-  margin-right: -40%;
   border-bottom: 2px solid #000;
+}
+
+.ordbog {
+  grid-column: 1/4;
+  margin: auto;
+}
+.ordbog img {
+  width: 300px;
+  height: auto;
+  margin: auto;
+  display: block;
+  padding-bottom: 3%;
+}
+.ordbog .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.ordbog .grid-item {
+  padding: 20px;
+}
+.ordbog svg {
+  width: 50px;
+  height: auto;
+  float: right;
+  margin: 0px;
+  fill: #FF9300;
+}
+.ordbog p {
+  text-align: center;
 }
 
 .soundmid {
@@ -119,24 +148,39 @@ svg {
   height: auto;
   margin: auto;
   display: block;
+  padding-bottom: 15%;
+  margin-top: -11%;
 }
-.soundmid svg {
+.soundmid .cirkle2 {
+  border: 7px solid #FF9300;
+  border-radius: 50%;
+  height: 95px;
+  width: 95px;
+  border-top-color: transparent;
+  margin: auto;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.soundmid .cirkle2 .cirkle1 {
+  background: #ffffff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 13px;
+  display: inline-block;
+  -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+}
+.soundmid .cirkle2 .cirkle1 svg {
   width: 40px;
   height: auto;
   fill: #FF9300;
   margin: auto;
   display: block;
-  fill: #FF9300;
-  margin: auto;
-  display: block;
-  background: #ffc0c0;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 100px;
-  vertical-align: middle;
-  padding: 10px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 .soundmid p {
   text-align: center;

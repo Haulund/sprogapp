@@ -8,7 +8,8 @@
     height: auto;
     margin: auto;
     display: block;
-    padding-bottom: 27%;
+    padding-bottom: 30%;
+    margin-top: -30%;
   }
   svg {
           width: 20px;
@@ -24,10 +25,41 @@
     content:'';
   display:inline-block;
   width:100%; height:100%;
-  margin-right:-40%;
+
   border-bottom:2px solid #000;
   }
 }
+
+.ordbog{
+  grid-column: 1/4;
+  margin: auto;
+
+  img{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding-bottom: 3%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+  .grid-item {
+    padding: 20px;
+}
+  svg {
+          width: 50px;
+          height: auto;
+          float: right;
+          margin: 0px;
+          fill: $orange;
+  }
+  p{
+    text-align: center;
+  }
+}
+
 .soundmid{
   grid-column: 1/4;
   margin: auto;
@@ -37,7 +69,33 @@
     height: auto;
     margin: auto;
     display: block;
+    padding-bottom: 15%;
+    margin-top: -11%;
+
   }
+  .cirkle2{
+      border: 7px solid $orange;
+      border-radius: 50%;
+      height: 95px;
+      width: 95px;
+      border-top-color: transparent;
+      margin: auto;
+      transform: rotate(180deg);
+
+
+
+.cirkle1{
+  background: #ffffff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 13px;
+    display: inline-block;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4 );
+
+
 
   svg {
           width: 40px;
@@ -45,21 +103,10 @@
           fill: $orange;
           margin: auto;
           display: block;
-
-          fill: #FF9300;
-          margin: auto;
-          display: block;
-          background: #ffc0c0;
-          width: 70px;
-          height: 70px;
-          border-radius: 50%;
-          text-align: center;
-          line-height: 100px;
-          vertical-align: middle;
-          padding: 10px;
-
+          transform: rotate(180deg);
   }
-  
+    }
+      }
   p{
     text-align: center;
     padding: 4% 8%;
