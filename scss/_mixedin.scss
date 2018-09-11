@@ -1,0 +1,6 @@
+@mixin navicon ($iconGray) {
+        font-size: 40px;
+        font-weight: bold;
+        color: $iconGray;
+        margin: 5px 10px;
+}
