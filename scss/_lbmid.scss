@@ -7,15 +7,26 @@
     width: 300px;
     height: auto;
     margin: auto;
+    display: block;
+    padding-bottom: 27%;
   }
   svg {
           width: 20px;
           height: auto;
           float: right;
-          margin: 15px;
+          margin: 0px;
           fill: $orange;
   }
-
+  p{
+    display: inline-block;
+  }
+  &:after {
+    content:'';
+  display:inline-block;
+  width:100%; height:100%;
+  margin-right:-40%;
+  border-bottom:2px solid #000;
+  }
 }
 .soundmid{
   grid-column: 1/4;
@@ -25,27 +36,47 @@
     width: 300px;
     height: auto;
     margin: auto;
+    display: block;
   }
+
   svg {
-          width: 20px;
+          width: 40px;
           height: auto;
           fill: $orange;
-          align-items: center;
+          margin: auto;
+          display: block;
+
+          fill: #FF9300;
+          margin: auto;
+          display: block;
+          background: #ffc0c0;
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 100px;
+          vertical-align: middle;
+          padding: 10px;
+
   }
+  
   p{
     text-align: center;
+    padding: 4% 8%;
   }
-
-
+}
+.bottomleft{
+  @include navicon($iconGray);
 }
 
 .bottommid{
     position: relative;
-    background-color: red;
+
 
   svg {
       position: absolute;
       bottom: 0px;
+      left: 20px;
 
     }
   }

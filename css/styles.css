@@ -74,13 +74,26 @@ svg {
   width: 300px;
   height: auto;
   margin: auto;
+  display: block;
+  padding-bottom: 27%;
 }
 .lbmid svg {
   width: 20px;
   height: auto;
   float: right;
-  margin: 15px;
+  margin: 0px;
   fill: #FF9300;
+}
+.lbmid p {
+  display: inline-block;
+}
+.lbmid:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin-right: -40%;
+  border-bottom: 2px solid #000;
 }
 
 .soundmid {
@@ -91,26 +104,45 @@ svg {
   width: 300px;
   height: auto;
   margin: auto;
+  display: block;
 }
 .soundmid svg {
-  width: 20px;
+  width: 40px;
   height: auto;
   fill: #FF9300;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin: auto;
+  display: block;
+  fill: #FF9300;
+  margin: auto;
+  display: block;
+  background: #ffc0c0;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  padding: 10px;
 }
 .soundmid p {
   text-align: center;
+  padding: 4% 8%;
+}
+
+.bottomleft {
+  font-size: 40px;
+  font-weight: bold;
+  color: #808080;
+  margin: 10px 15px;
 }
 
 .bottommid {
   position: relative;
-  background-color: red;
 }
 .bottommid svg {
   position: absolute;
   bottom: 0px;
+  left: 20px;
 }
 
 .topleft_4 {
