@@ -1,0 +1,94 @@
+.overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.7);
+        position: absolute;
+        top: 0px;
+        z-index: 1;
+        border-radius: 20px;
+
+        .lb1 {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                svg {
+                        width: 100px;
+                        height: auto;
+                        fill: $orange;
+                }
+        }
+
+
+}
+
+.triggercontaineroverlay {
+        width: 100%;
+        height: 120px;
+        // background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        bottom: 0px;
+        z-index: 1;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: grid;
+        grid-template-columns: 50px auto 50px;
+
+            svg {
+                    width: 30px;
+                    height: auto;
+                    margin: 0px;
+                    fill: white;
+         }
+
+         .botmid {
+                 position: relative;
+                 opacity: 0.3;
+
+                  a{
+                          background-color: black;
+                          border-radius: 100px;
+                          border: 3px solid white;
+                          width: 70px;
+                          height: 70px;
+                          display: block;
+                          margin: auto;
+                          margin-top: 25px;
+
+                         svg {
+                                 display: block;
+                                 margin: 19px auto;
+
+                         }
+                 }
+         }
+
+         .botleft {
+                 position: relative;
+                 a {
+                        position: absolute;
+                        bottom: 0px;
+                        color: $iconGray;
+                        font-size: 40px;
+                        margin-left: 15px;
+                        display: none;
+                 }
+         }
+
+         .botright {
+                 position: relative;
+                 a {
+                        position: absolute;
+                        bottom: 0px;
+                        fill: $iconGray;
+                        font-size: 40px;
+                        margin-right: 15px;
+                        display: none;
+                 }
+
+                 svg {
+                          fill: $iconGray;
+                 }
+
+         }
+}
