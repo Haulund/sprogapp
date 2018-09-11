@@ -83,14 +83,6 @@ svg {
   fill: #FF9300;
 }
 
-.bottommid {
-  position: relative;
-}
-.bottommid svg {
-  position: absolute;
-  bottom: 0px;
-}
-
 .soundmid {
   grid-column: 1/4;
   margin: auto;
@@ -110,6 +102,19 @@ svg {
 }
 .soundmid p {
   text-align: center;
+}
+
+.bottommid {
+  position: relative;
+  background-color: red;
+}
+.bottommid svg {
+  position: absolute;
+  bottom: 0px;
+}
+
+.topleft_4 {
+  display: none;
 }
 
 #cambody {

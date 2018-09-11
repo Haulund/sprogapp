@@ -17,15 +17,6 @@
   }
 
 }
-
-.bottommid{
-    position: relative;
-  svg {
-      position: absolute;
-      bottom: 0px;
-    }
-  }
-
 .soundmid{
   grid-column: 1/4;
   margin: auto;
@@ -46,4 +37,19 @@
   }
 
 
+}
+
+.bottommid{
+    position: relative;
+    background-color: red;
+
+  svg {
+      position: absolute;
+      bottom: 0px;
+
+    }
+  }
+
+.topleft_4{
+  display: none;
 }
