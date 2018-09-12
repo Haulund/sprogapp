@@ -616,7 +616,7 @@ svg {
 .mid_lb7 svg {
   width: 200px;
   height: auto;
-  fill: #FF9300;
+  fill: #2C334E;
   margin: auto;
   display: block;
   padding-bottom: 35%;
@@ -634,4 +634,16 @@ svg {
 
 .non {
   display: none;
+}
+
+.mid_lb7_2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin: 0px;
+  width: 60px;
+  height: auto;
+  fill: #FF9300;
 }

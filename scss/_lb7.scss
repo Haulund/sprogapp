@@ -5,7 +5,7 @@
   svg {
           width: 200px;
           height: auto;
-          fill: $orange;
+          fill: $iconBlue;
           margin: auto;
           display: block;
           padding-bottom: 35%;
@@ -24,4 +24,14 @@
 }
 .non{
   display: none;
+}
+.mid_lb7_2{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0px;
+  width: 60px;
+  height: auto;
+  fill:$orange;
 }
