@@ -1,0 +1,31 @@
+.ordbog{
+  grid-column: 1/4;
+  margin: auto;
+
+  img{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding-bottom: 3%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+  .grid-item {
+    padding: 20px;
+
+    svg {
+            width: 50px;
+            height: auto;
+            float: right;
+            margin: 0px;
+            fill: $orange;
+    }
+}
+
+  p{
+    text-align: center;
+  }
+}
