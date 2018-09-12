@@ -110,33 +110,24 @@ svg {
   border-bottom: 2px solid #000;
 }
 
-.ordbog {
-  grid-column: 1/4;
-  margin: auto;
+.bottomleft {
+  font-size: 40px;
+  font-weight: bold;
+  color: #808080;
+  margin: 10px 15px;
 }
-.ordbog img {
-  width: 300px;
-  height: auto;
-  margin: auto;
-  display: block;
-  padding-bottom: 3%;
+
+.bottommid {
+  position: relative;
 }
-.ordbog .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
+.bottommid svg {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
 }
-.ordbog .grid-item {
-  padding: 20px;
-}
-.ordbog svg {
-  width: 50px;
-  height: auto;
-  float: right;
-  margin: 0px;
-  fill: #FF9300;
-}
-.ordbog p {
-  text-align: center;
+
+.topleft_4 {
+  display: none;
 }
 
 .soundmid {
@@ -187,24 +178,33 @@ svg {
   padding: 4% 8%;
 }
 
-.bottomleft {
-  font-size: 40px;
-  font-weight: bold;
-  color: #808080;
-  margin: 10px 15px;
+.ordbog {
+  grid-column: 1/4;
+  margin: auto;
 }
-
-.bottommid {
-  position: relative;
+.ordbog img {
+  width: 300px;
+  height: auto;
+  margin: auto;
+  display: block;
+  padding-bottom: 3%;
 }
-.bottommid svg {
-  position: absolute;
-  bottom: 0px;
-  left: 20px;
+.ordbog .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
-
-.topleft_4 {
-  display: none;
+.ordbog .grid-item {
+  padding: 20px;
+}
+.ordbog .grid-item svg {
+  width: 50px;
+  height: auto;
+  float: right;
+  margin: 0px;
+  fill: #FF9300;
+}
+.ordbog p {
+  text-align: center;
 }
 
 #cambody {
