@@ -3,11 +3,12 @@
   margin: auto;
 
   img{
-    width: 300px;
+    max-width: 86vw;
     height: auto;
     margin: auto;
     display: block;
     padding-bottom: 3%;
+    margin-top: -5%;
   }
   .grid-container {
     display: grid;
