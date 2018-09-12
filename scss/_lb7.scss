@@ -1,0 +1,37 @@
+.mid_lb7{
+  grid-column: 1/4;
+  margin: auto;
+
+  svg {
+          width: 200px;
+          height: auto;
+          fill: $iconBlue;
+          margin: auto;
+          display: block;
+          padding-bottom: 35%;
+          margin-top: -20%;
+  }
+
+  h1{
+    color: $picon;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  p{
+    color: $orange;
+    text-align: center;
+  }
+}
+.non{
+  display: none;
+}
+.mid_lb7_2{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0px;
+  width: 60px;
+  height: auto;
+  fill:$orange;
+}
