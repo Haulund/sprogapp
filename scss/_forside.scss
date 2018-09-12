@@ -1,16 +1,135 @@
-.score {
-        position: static;
-        width: 183px;
-        height: 170px;
-        margin: auto;
-        box-shadow: 4px 0px 9px;
+.swoosh {
+        position:absolute;
+        top: 10%;
+        right: 20%;
 
-        p {
-                font-size: 144px;
-                font-weight: 400;
+        width: 45px;
+        height: 45px;
+        z-index: 20;
+        background-color: $iconGreen;
+        border-radius: 100px;
 
-                &:nth-child(2) {
-                        font-size: 26px;
+        svg {
+                position: absolute;
+                fill: white;
+                width: 25px;
+                margin: auto;
+                top: 12px;
+                left: 10px;
+        }
+}
+
+.minusgrid {
+        position: relative;
+        max-width: 414px;
+        background-color: white;
+        margin: 6%;
+        border-radius: 20px;
+        height: 94vh;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4 );
+
+        .score {
+                display: inline-block;
+                position: relative;
+                width: 183px;
+                height: 170px;
+                margin-top: 50px;
+                box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3 );
+                border-radius: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+
+                padding: 2em;
+
+
+                p {
+                        font-size: 144px;
+                        font-weight: 400;
+                        line-height: 75px;
+                        text-align: center;
+
+
+                        &:nth-child(2) {
+                                font-size: 26px;
+                                font-weight: bold;
+                        }
+                }
+        }
+
+        .funktionerwrapper {
+                margin-top: 5em;
+
+                .funktionerknap {
+                        position: relative;
+                        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3 );
+                        width: 250px;
+                        // margin-bottom: 1.5em;
+                        margin: 0px auto 1.5em;
+                        border-radius: 100px;
+                        padding: 10px;
+
+                        svg {
+                                position: absolute;
+                                left: 52px;
+                                top: 14px;
+                                fill: $orange;
+                                width: 32px;
+                                height: auto;
+                                margin: 0px;
+                        }
+
+                        &:nth-child(2){
+                                svg {
+                                        width: 25px;
+                                        top: 11px;
+                                        left: 55px;
+                                }
+                        }
+
+                        a {
+                                p {
+                                        position: relative;
+                                        text-align: center;
+                                        left: 20px;
+                                }
+                        }
+                }
+        }
+
+
+
+        .spilgrid {
+                position: absolute;
+                bottom: 1em;
+                left: 50%;
+                transform: translateX(-50%);
+                display: grid;
+                grid-template-columns: auto auto auto;
+                justify-content: center;
+                grid-column-gap: 2em;
+
+                .overskrift{
+                        grid-column: 1/4;
+                        text-align: center;
+                }
+
+                .spil1, .spil2, .spil3 {
+                        position: relative;
+                        background-color: white;
+                        width: 50px;
+                        height: 50px;
+                        border-radius:100px;
+                        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3 );
+                }
+
+                svg {
+                        position: absolute;
+                        fill:$orange;
+                        width: 25px;
+                        margin: 0px;
+                        left: 12px;
+                        top: 14px;
+
                 }
         }
 }
